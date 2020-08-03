@@ -13,16 +13,23 @@ table {
   overflow: hidden;
   margin: 12px 0;
   min-width: 300px;
-  background: #dad8d8;
 }
 
 .header-row {
     background: #34495E;
-    color: #fff
+    color: rgb(88, 236, 255)
 }
 
 th, td {
     text-align: left;
     margin: 5px 10px;
     padding: 6px;
+}
+
+/* bonus mission - zebra stripes */
+tr:nth-child(1n+2){
+    background-color: #ffd7ff;
+}
+tr:nth-child(even){
+    background-color: #8a6c87;
 }
