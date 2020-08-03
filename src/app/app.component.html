@@ -2,7 +2,7 @@
 
 <div class="search-form">
     <input #searchTerm (keyup.enter)="search(searchTerm.value)"/>
-    <button (click)="search(searchTerm.value)">Search with Name</button>
+    <button (click)="search(searchTerm.value)">Search</button>
 </div>
 
 <app-orbit-counts [satellites]="displayList"></app-orbit-counts>
